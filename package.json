@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "bot.js", cheirbot
+  "main": "bot.js" cheirbot
   "scripts": {
     "start": "node bot.js"
   },
