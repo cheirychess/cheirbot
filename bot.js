@@ -1,11 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-@echo off
-java -jar moosic.jar
-pause
-
-});
 
 client.on('ready', () => {
     console.log('I am ready!');
