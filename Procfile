@@ -1,1 +1,1 @@
-worker: node bot.js cheribot
+worker: node bot.js cheirbot
