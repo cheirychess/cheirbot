@@ -1,8 +1,8 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "cheirbot",
+  "description": "cheirbot",
   "version": "0.0.0",
-  "main": "bot.js", cheirbot
+  "main": "bot.js", 
   "scripts": {
     "start": "node bot.js"
   },
