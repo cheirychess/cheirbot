@@ -26,6 +26,12 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if (message.content === 'Sad!') {
+    	message.reply('https://cdn.discordapp.com/attachments/376127412150468611/376127451086061568/sad.png');
+    }
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
