@@ -33,7 +33,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Invalid Search (Maybe try again?).') {
+    if (message.content === ':warning: Invalid Search (Maybe try again?).') {
     	message.reply('https://cdn.discordapp.com/attachments/359038718042046464/377242716079390740/emote.png');
     }
 });
