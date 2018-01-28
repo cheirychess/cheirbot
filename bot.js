@@ -33,11 +33,23 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === ':warning: Invalid Search (Maybe try again?).') {
-    	message.reply('https://cdn.discordapp.com/attachments/359038718042046464/377242716079390740/emote.png');
+    if (message.content === 'no anime') {
+    	message.reply('https://cdn.discordapp.com/attachments/369575741639229460/406973645806895124/DRl8H--WkAEk_kf.jpg');
     }
 });
 
+client.on('message', message => {
+    if (message.content === 'illegal') {
+    	message.reply('https://cdn.discordapp.com/attachments/369575741639229460/406975646133387286/illegal.jpg');
+    }
+});    
+
+
+client.on('message', message => {
+    if (message.content === 'legal') {
+    	message.reply('https://cdn.discordapp.com/attachments/369575741639229460/406975625300279296/1i0jv1.jpg');
+    }
+});    
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
