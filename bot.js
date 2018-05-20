@@ -51,5 +51,13 @@ client.on('message', message => {
     }
 });    
 
+
+client.on('message', message => {
+   if (message.content === '@everyone') {
+       message.reply('https://cdn.discordapp.com/attachments/369575741639229460/447859322022658081/0cc.png');
+       
+    }
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
