@@ -60,42 +60,42 @@ client.on('message', message => {
 });       
     
 client.on('message', message => {
-   if (message.content === 'fat demo') {
+   if (message.content === 'fd') {
        message.reply('https://cdn.discordapp.com/attachments/467857158625689610/505152121436504075/meme.png');
        
     }
 });       
     
 client.on('message', message => {
-   if (message.content === 'can u aint') {
+   if (message.content === 'cua') {
        message.reply('https://media.discordapp.net/attachments/254248946086576128/498969306839777280/image0.jpg');
        
     }
 });
 
 client.on('message', message => {
-   if (message.content === 'voring distance') {
+   if (message.content === 'vd') {
        message.reply('https://cdn.discordapp.com/attachments/467858965141913603/496404778012901388/gplus300042337.png');
        
     }
 });
 
 client.on('message', message => {
-   if (message.content === 'Okay, this is epic') {
+   if (message.content === 'otie') {
        message.reply('https://cdn.discordapp.com/attachments/467858965141913603/495840798747656192/image0.png');
        
     }
 });
 
 client.on('message', message => {
-   if (message.content === 'my fat fucking nuts') {
+   if (message.content === 'mffn') {
        message.reply('https://i.ytimg.com/vi/WZ6Z_ATIcRw/maxresdefault.jpg');
        
     }
 });
 
 client.on('message', message => {
-   if (message.content === 'me after spotting a minority') {
+   if (message.content === 'masam') {
        message.reply('https://cdn.discordapp.com/attachments/467857158625689610/473674660551196672/unknown.png');
        
     }
