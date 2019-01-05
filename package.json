@@ -9,19 +9,7 @@
   "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
-  }
-} 
-
-{
-  "main": "urban.js",
-  "dependencies": {
-    "urban": "^0.3.0"
-  }
-}
-
-{
-  "main": "wikipedia.js",
-  "dependencies": {
-    "wikijs": "0.1.x"
-  }
+    "urban": "^0.3.1",
+    "wikijs": "^0.1.4",
+  },
 }
