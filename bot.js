@@ -134,7 +134,7 @@ client.on("message", (message) => {
         if (command == "scp") {
             try {inp = inp.split("scp-").pop()}catch(err){}
             inp = Number(inp);
-            if (isNaN(inp) || inp > 3999 || inp < 1 || inp == null) {
+            if (isNaN(inp) || inp > 4999 || inp < 1 || inp == null) {
                 message.channel.send("<@" + message.author.id + ">" + "Please enter a valid SCP number");
             } else if (inp < 10) {
                 message.channel.send("https://www.scp-wiki.net/scp-00" + inp);  
@@ -152,7 +152,7 @@ client.on("message", (message) => {
     if (msg.includes("scp-") && message.author.bot != true) {
         inp = msg.replace(/[^\d]/g, '');
         inp = Number(inp);
-        if (isNaN(inp) || inp > 3999 || inp < 1 || inp == null) { 
+        if (isNaN(inp) || inp > 4999 || inp < 1 || inp == null) { 
         } else if (inp < 10) {
             message.channel.send("https://www.scp-wiki.net/scp-00" + inp);
         } else if (inp < 100) {
